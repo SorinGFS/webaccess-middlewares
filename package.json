@@ -1,0 +1,32 @@
+{
+  "name": "webaccess-middlewares",
+  "version": "0.0.1",
+  "description": "WebAccess Middlewares",
+  "main": "index.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "csurf": "^1.11.0",
+    "express": "4.17.3",
+    "webaccess-base": "0.0.1",
+    "express-fingerprint": "^1.2.2",
+    "express-rate-limit": "^5.5.0",
+    "express-slow-down": "^1.4.0",
+    "http-errors": "^2.0.0",
+    "method-override": "^3.0.0",
+    "mobile-detect": "^1.4.5",
+    "volleyball": "^1.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SorinGFS/webaccess-middlewares.git"
+  },
+  "author": {
+    "name": "SorinGFS",
+    "url": "https://github.com/SorinGFS"
+  },
+  "homepage": "https://github.com/SorinGFS/webaccess-middlewares#readme",
+  "bugs": {
+    "url": "https://github.com/SorinGFS/webaccess-middlewares/issues"
+  },
+  "license": "MIT"
+}
