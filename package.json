@@ -1,6 +1,6 @@
 {
   "name": "webaccess-middlewares",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WebAccess Middlewares",
   "main": "index.js",
   "dependencies": {
