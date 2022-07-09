@@ -13,7 +13,7 @@ const getPrefix = (req, prefixArgs) => {
     if (!(Array.isArray(prefixArgs) && prefixArgs.length)) return '';
     let result = '';
     prefixArgs.forEach((arg) => (result += req.server.fn.get(req, arg)));
-    return '/' + req.server.fn.crc32(result).toString(16) + req.server.fn.crc32(reverseString(result)).toString(16);
+    return '/' + req.server.fn.crc32(result).toString(16) + req.server.fn.crc32(req.server.fn.reverseString(result)).toString(16);
 };
 
 const getFilePath = (file, pathArgs) => {
