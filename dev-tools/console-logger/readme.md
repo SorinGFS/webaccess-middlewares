@@ -74,7 +74,7 @@ Every module requested in `consoleLogger` should be placed as a property of it, 
         "...": "...",
         "locations": [
             {
-                "^/api": {
+                "^/api/": {
                     "devTools": {
                         "consoleLogger": { "authenticate": ["var1", "var2.prop1.prop2"]  }
                     }

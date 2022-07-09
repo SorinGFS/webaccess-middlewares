@@ -135,7 +135,7 @@ As specified in Configuration Methods `auth.mode` can be done at the `server` le
         },
         "locations": [
             {
-                "^/api": {
+                "^/api/": {
                     "auth": {
                         "mode": false
                     }
@@ -160,12 +160,12 @@ As specified in Configuration Methods `auth.mode` can be done at the `server` le
         },
         "locations": [
             {
-                "^/admin": {
+                "^/admin/": {
                     "auth": {
                         "mode": "slideExpiration"
                     }
                 },
-                "^/api": {
+                "^/api/": {
                     "auth": {
                         "mode": "slideExpiration"
                     }

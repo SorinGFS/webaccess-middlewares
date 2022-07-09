@@ -23,7 +23,7 @@ Lets you use HTTP verbs such as PUT, PATCH or DELETE in places where the client 
         "...": "...",
         "locations": [
             {
-                "^/api": {
+                "^/api/": {
                     "methodOverride": false
                 }
             }

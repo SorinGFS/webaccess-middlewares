@@ -55,7 +55,7 @@ The list of modules for which you can configure Console Logger is limited to the
                 }
             },
             {
-                "^/api": {
+                "^/api/": {
                     "devTools": {
                         "performanceTimer": []
                     }

@@ -39,7 +39,7 @@ To enable logs for a `server` or `location` block use `accessLogs` directive as 
         "...": "...",
         "locations": [
             {
-                "^/api": {
+                "^/api/": {
                     "accessLogs": ["ip", "method", "hostname", "url", "headers"]
                 },
                 "^/auth": {

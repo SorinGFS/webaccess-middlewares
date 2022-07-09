@@ -52,7 +52,7 @@ Active, configurable.
         "...": "...",
         "locations": [
             {
-                "^/api": {
+                "^/api/": {
                     "slowDown": {
                         "route": true
                     }

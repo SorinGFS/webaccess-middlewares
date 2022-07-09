@@ -123,7 +123,7 @@ req.site.options.limit = 30;
         "...": "...",
         "locations": [
             {
-                "^/api": {
+                "^/api/": {
                     "dataAdapter": false
                 }
             }

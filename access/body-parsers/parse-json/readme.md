@@ -23,7 +23,7 @@ This module is a built-in middleware function in Express. It parses incoming req
         "...": "...",
         "locations": [
             {
-                "^/api": {
+                "^/api/": {
                     "parseJson": false
                 }
             }

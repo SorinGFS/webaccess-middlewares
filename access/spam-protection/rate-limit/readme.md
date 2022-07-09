@@ -56,7 +56,7 @@ Active, configurable.
         "...": "...",
         "locations": [
             {
-                "^/api": {
+                "^/api/": {
                     "rateLimit": {
                         "route": true
                     }

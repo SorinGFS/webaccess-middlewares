@@ -51,7 +51,7 @@ cd node_modules/geoip-lite && npm run-script updatedb license_key=YOUR_LICENSE_K
                 "^/auth": {
                     "fingerprint": "geoip" 
                 },
-                "^/api": {
+                "^/api/": {
                     "fingerprint": false
                 }
             }

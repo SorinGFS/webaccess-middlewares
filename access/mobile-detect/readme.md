@@ -68,7 +68,7 @@ Returns information about the browser and os.
                 "^/auth": {
                     "mobileDetect": { "client": true },
                 },
-                "^/api": {
+                "^/api/": {
                     "mobileDetect": false,
                 }
             }

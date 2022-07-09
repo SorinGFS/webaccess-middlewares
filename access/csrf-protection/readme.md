@@ -52,7 +52,7 @@ To require `csrt` in header use: `csrfProtection.csrtHeader = "some-header"`.
                 "^/auth": {
                     "csrfProtection": true
                 },
-                "^/api": {
+                "^/api/": {
                     "csrfProtection": false
                 }
             }
