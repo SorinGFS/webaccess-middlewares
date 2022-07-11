@@ -17,10 +17,10 @@ This module can be configured both at `server` level and `location` level. Furth
 | Directive    | Type             | Default | Required | Description                                                                                                    |
 | ------------ | ---------------- | ------- | -------- | -------------------------------------------------------------------------------------------------------------- |
 | destination  | string           | uploads | FALSE    | The destination endpoint for uploaded files.                                                                   |
-| preservePath | string           | FALSE   | FALSE    | Option to preserve path sent from multer to busboy.                                                            |
+| preservePath | string           | FALSE   | FALSE    | Option to preserve path sent from Multer to Busboy.                                                            |
 | next         | boolean          |         | FALSE    | Indicates that there would be further proccessing (e.g image resize, upload to cdn, …)                         |
 | limits       | object           |         | FALSE    | Limitations for files and fields sent by Multer to Busboy (details bellow)                                     |
-| files        | array of objects |         | TRUE     | Array of specific instructions for parsing files (fieldName, maxCount, filter, prefixArgs, pathArgs, nameArgs) |
+| files        | array of objects |         | TRUE     | Array of specific instructions for parsing files (fieldName, maxCount, filter, prefixArgs, pathArgs, nameArgs). All details bellow. |
 
 #### Limits
 
