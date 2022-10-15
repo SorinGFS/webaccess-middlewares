@@ -1,6 +1,6 @@
 'use strict';
 // dynamically export the folders and nodejs supported files in current working dir
-const fs = require('webaccess-base/fs');
+const fs = require('zerodep/node/fs');
 const dirs = fs.dirs(__dirname);
 const entries = fs.entries(__dirname);
 

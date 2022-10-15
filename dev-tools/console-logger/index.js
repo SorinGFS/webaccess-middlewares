@@ -1,6 +1,6 @@
 'use strict';
 // display middleware modified vars requested in server config
-const fn = require('webaccess-base/fn');
+const fn = require('zerodep/node/fn');
 function consoleLogger(req, res, next) {
     // the results will be taken AFTER middleware run
     next();

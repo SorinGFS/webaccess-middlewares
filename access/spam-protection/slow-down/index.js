@@ -1,6 +1,6 @@
 'use strict';
 //
-const fn = require('webaccess-base/fn');
+const fn = require('zerodep/node/fn');
 const slowDown = require('express-slow-down');
 
 module.exports = {
