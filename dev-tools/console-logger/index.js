@@ -9,7 +9,7 @@ function consoleLogger(req, res, next) {
             if (middleware === req.performer) {
                 console.log(`Console Logger: =========== request after [${req.performer}] ===========`);
                 req.server.devTools.consoleLogger[middleware].forEach((item) => {
-                    console.log(`req.${item}:`, fn.get(req, item));
+                    console.log(`req.${item}:`, fn.get(req, ...item.split('.')));
                 });
             }
         });
